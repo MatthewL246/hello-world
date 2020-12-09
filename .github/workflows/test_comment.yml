@@ -1,0 +1,9 @@
+name: Test Comment
+
+on: [pull_request, issues]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo test
