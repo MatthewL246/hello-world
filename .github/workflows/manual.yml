@@ -2,17 +2,20 @@ name: Manual workflow
 
 on:
   workflow_dispatch:
-    inputs:
-      input:
-        description: 'An input'
-        required: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Update system
+    - name: Update System
       run: |
         sudo apt update
-        sudo apt upgrade -y
+        sudo apt-get install unattended-upgrades -y
+        sudo unattended-upgrades
+       
+    - name: Checkout
+      uses: actions/checkout@v2
+      
+    - name: List files
+      run: ls
