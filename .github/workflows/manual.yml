@@ -1,0 +1,18 @@
+name: Manual workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      input:
+        description: 'An input'
+        required: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Update system
+      run: |
+        sudo apt update
+        sudo apt upgrade -y
