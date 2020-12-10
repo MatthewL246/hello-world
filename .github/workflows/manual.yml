@@ -1,7 +1,6 @@
 name: Manual workflow
 
-on:
-  workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
   update:
@@ -10,12 +9,15 @@ jobs:
     steps:
     - name: Update System
       run: |
-        sudo apt update
+        sudo apt-get update
         sudo apt-get install unattended-upgrades -y
-        sudo unattended-upgrades
+        sudo unattended-upgrades -d
        
     - name: Checkout
       uses: actions/checkout@v2
+    
+    - name: Create file
+      run: echo "This is a file" > file.txt
       
     - name: List files
-      run: ls
+      run: ls -lah
