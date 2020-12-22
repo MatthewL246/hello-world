@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="BottomToTop" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="3510b571-0190-4653-9983-0c60bb2710791" Bounds="398.718333333333,348.9025,76.5633333333333,25.96" Label="New Node" />
+    <Node Id="45c12650-432a-4ec8-b957-fde10c9598211" Bounds="126.718333333333,464.1975,76.5633333333333,25.96" Label="New Node" />
+    <Node Id="45dbeba2-032d-48a1-9f76-bcba19452cc71" Bounds="398.218333333333,40,76.5633333333333,25.96" Label="New Node" />
+    <Node Id="4cbf56ca-ba41-4c8f-80b3-2399f7384f251" Bounds="13.7183333333334,406.55,76.5633333333333,25.96" Label="New Node" />
+    <Node Id="842aad5b-143b-4c85-8b68-87f331ad8d0c1" Bounds="31.7883333333335,291.255,102.423333333333,25.96" ErrorMessage="Circular reference found involving:  Circular Node 1 (842aad5b-143b-4c85-8b68-87f331ad8d0c1)" IsStronglyConnected="True" Label="Circular Node 1" />
+    <Node Id="8dcd6cab-26dd-41bb-83ab-9cb04140b89f1" Bounds="309.718333333333,406.55,76.5633333333333,25.96" ErrorMessage="Node 'New Node' has a hub value of 46." Hub="46" Label="New Node" />
+    <Node Id="925c3195-90d7-4424-9849-4204d265161c1" Bounds="291.218333333333,135.96,76.5633333333333,25.96" Label="New Node" />
+    <Node Id="98b42927-916f-4caf-9d42-589733080a2f1" Bounds="297.718333333333,233.6075,76.5633333333333,25.96" Label="New Node" />
+    <Node Id="CircularNode2" Bounds="31.7883333333335,348.9025,102.423333333333,25.9599999999999" ErrorMessage="Circular reference found involving:  Circular Node 2 (CircularNode2)" IsStronglyConnected="True" Label="Circular Node 2" />
+    <Node Id="Group" Bounds="251.218333333333,0,243.563333333333,201.92" Group="Expanded" />
+    <Node Id="Node.js" Bounds="375.025,291.255,59.95,25.96" ErrorMessage="Node 'Node.js' has a hub value of 46." Hub="46" Label="Node.js" />
+    <Node Id="Node.jsIsAJavaScriptThingy" Category="Comment" Bounds="195.505,348.9025,172.99,25.9599999999999" ErrorMessage="Unreferenced node detected:Node.js is a JavaScript thingy (Node.jsIsAJavaScriptThingy)" IsUnreferenced="True" Label="Node.js is a JavaScript thingy" />
+    <Node Id="c50f196d-1678-4446-bea2-cf45f8dae2861" Bounds="277.718333333333,464.1975,76.5633333333333,25.96" Label="New Node" />
+    <Node Id="ceafe025-8b9b-4161-b421-b19bedefd6e11" Bounds="271.218333333333,95.96,116.563333333333,85.96" Group="Expanded" Label="New Node" />
+    <Node Id="e316fc41-a9aa-423d-b501-e8cfe980509a1" Bounds="291.218333333333,40,76.5633333333333,25.96" Label="New Node" />
+    <Node Id="fae17029-f1af-48e9-a4a2-064fb47415861" Bounds="384.718333333333,464.1975,76.5633333333333,25.96" Label="New Node" />
+  </Nodes>
+  <Links>
+    <Link Source="3510b571-0190-4653-9983-0c60bb2710791" Target="Node.js" Bounds="416.573211669922,325.083953857422,13.2216186523438,23.8185424804688" />
+    <Link Source="45c12650-432a-4ec8-b957-fde10c9598211" Target="45c12650-432a-4ec8-b957-fde10c9598211" Bounds="203.281661987305,470.730560302734,43.5,12.9369506835938" />
+    <Link Source="45c12650-432a-4ec8-b957-fde10c9598211" Target="4cbf56ca-ba41-4c8f-80b3-2399f7384f251" Bounds="85.4602676506689,436.599919169029,54.0964810517485,27.597586324135" />
+    <Link Source="45c12650-432a-4ec8-b957-fde10c9598211" Target="8dcd6cab-26dd-41bb-83ab-9cb04140b89f1" Bounds="202.625503540039,434.086669921875,99.1648406982422,31.23828125" />
+    <Link Source="45c12650-432a-4ec8-b957-fde10c9598211" Target="Node.js" Bounds="165,308.908142089844,201.089202880859,155.289367675781" />
+    <Link Source="4cbf56ca-ba41-4c8f-80b3-2399f7384f251" Target="4cbf56ca-ba41-4c8f-80b3-2399f7384f251" Bounds="90.2816696166992,413.083068847656,43.4999923706055,12.9369201660156" />
+    <Link Source="4cbf56ca-ba41-4c8f-80b3-2399f7384f251" Target="842aad5b-143b-4c85-8b68-87f331ad8d0c1" Bounds="1,320.277160644531,36.610466003418,86.2728271484375" />
+    <Link Source="842aad5b-143b-4c85-8b68-87f331ad8d0c1" Target="CircularNode2" Bounds="100.562599182129,317.214996337891,11.6874008178711,25.9268493652344" IsCircularLink="True" />
+    <Link Source="8dcd6cab-26dd-41bb-83ab-9cb04140b89f1" Target="3510b571-0190-4653-9983-0c60bb2710791" Bounds="368.039367675781,379.755310058594,41.367431640625,26.794677734375" />
+    <Link Source="8dcd6cab-26dd-41bb-83ab-9cb04140b89f1" Target="4cbf56ca-ba41-4c8f-80b3-2399f7384f251" Bounds="99.2816666666666,419.529998779297,210.436666666667,0" />
+    <Link Source="8dcd6cab-26dd-41bb-83ab-9cb04140b89f1" Target="CircularNode2" Bounds="113.49227142334,379.031616210938,196.226051330566,35.3661804199219" />
+    <Link Source="8dcd6cab-26dd-41bb-83ab-9cb04140b89f1" Target="Node.js" Bounds="386.281677246094,315.259216308594,119.718322753906,97.287109375" />
+    <Link Source="925c3195-90d7-4424-9849-4204d265161c1" Target="45dbeba2-032d-48a1-9f76-bcba19452cc71" Bounds="343.973321780319,71.9689102520193,71.3531331533926,63.991092189387" />
+    <Link Source="98b42927-916f-4caf-9d42-589733080a2f1" Target="ceafe025-8b9b-4161-b421-b19bedefd6e11" Bounds="332.637685098211,190.903738609753,2.57855236241164,42.7037629161259" />
+    <Link Source="CircularNode2" Target="842aad5b-143b-4c85-8b68-87f331ad8d0c1" Bounds="53.75,322.975646972656,11.6874008178711,25.9268493652344" IsCircularLink="True" />
+    <Link Source="Group" Target="45dbeba2-032d-48a1-9f76-bcba19452cc71" Category="Contains" />
+    <Link Source="Group" Target="ceafe025-8b9b-4161-b421-b19bedefd6e11" Category="Contains" />
+    <Link Source="Group" Target="e316fc41-a9aa-423d-b501-e8cfe980509a1" Category="Contains" />
+    <Link Source="Node.js" Target="925c3195-90d7-4424-9849-4204d265161c1" Bounds="339.745641542545,170.014218539776,58.9438485668747,121.240782070576" />
+    <Link Source="Node.js" Target="98b42927-916f-4caf-9d42-589733080a2f1" Bounds="358.44287109375,265.337860107422,31.02099609375,25.9171447753906" />
+    <Link Source="Node.js" Target="Group" Bounds="400.484588623047,210.782562255859,4.51541137695313,80.4724426269531" />
+    <Link Source="Node.jsIsAJavaScriptThingy" Target="Node.js" Bounds="309.694854736328,320.975158691406,59.58740234375,27.9273376464844" />
+    <Link Source="Node.jsIsAJavaScriptThingy" Target="fae17029-f1af-48e9-a4a2-064fb47415861" Bounds="297.873886871501,374.86249206543,102.284948990112,83.6379047324119" />
+    <Link Source="c50f196d-1678-4446-bea2-cf45f8dae2861" Target="45c12650-432a-4ec8-b957-fde10c9598211" Bounds="212.281666666667,477.177505493164,65.4366666666667,0" />
+    <Link Source="c50f196d-1678-4446-bea2-cf45f8dae2861" Target="8dcd6cab-26dd-41bb-83ab-9cb04140b89f1" Bounds="323.205169677734,440.378936767578,13.2216186523438,23.8185729980469" />
+    <Link Source="ceafe025-8b9b-4161-b421-b19bedefd6e11" Target="925c3195-90d7-4424-9849-4204d265161c1" Category="Contains" />
+    <Link Source="ceafe025-8b9b-4161-b421-b19bedefd6e11" Target="e316fc41-a9aa-423d-b501-e8cfe980509a1" Bounds="329.5,74.9599990844727,0,21" />
+    <Link Source="fae17029-f1af-48e9-a4a2-064fb47415861" Target="8dcd6cab-26dd-41bb-83ab-9cb04140b89f1" Bounds="372.022796630859,437.994720458984,34.090087890625,26.2027893066406" />
+    <Link Source="fae17029-f1af-48e9-a4a2-064fb47415861" Target="c50f196d-1678-4446-bea2-cf45f8dae2861" Bounds="363.281666666667,477.177505493164,21.4366666666667,0" />
+  </Links>
+  <Categories>
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="ErrorMessage" Label="Error" Description="Error" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Hub" Label="Hub" Description="Node is in the top 10% of highly connected nodes" DataType="System.Int32" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsCircularLink" Label="Circular Link" Description="Link connects part of a strongly coupled component" DataType="System.Boolean" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsStronglyConnected" Label="Circular References" Description="Node is part of a strongly coupled component" DataType="System.Boolean" />
+    <Property Id="IsUnreferenced" Label="Unreferenced" Description="Node has no links pointing to it from other nodes in the graph" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="ToolTip" DataType="System.String" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Circular References" ToolTip="Node is part of a strongly coupled component" ValueLabel="Nodes">
+      <Condition Expression="IsStronglyConnected" />
+      <Setter Property="Stroke" Value="#D02030" />
+      <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Circular References" ToolTip="Node is part of a strongly coupled component" ValueLabel="Links">
+      <Condition Expression="IsCircularLink" />
+      <Setter Property="Stroke" Value="#D02030" />
+      <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Unreferenced" ToolTip="Node has no links pointing to it from other nodes in the graph" ValueLabel="True">
+      <Condition Expression="IsUnreferenced" />
+      <Setter Property="Background" Value="Purple" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Hub" ToolTip="Node is in the top 10% of highly connected nodes" ValueLabel="Hub">
+      <Condition Expression="HasValue(&quot;Hub&quot;)" />
+      <Setter Property="Background" Value="#FFFBA8A9" />
+    </Style>
+    <Style TargetType="Group" GroupLabel="Hub" ToolTip="Node is in the top 10% of highly connected nodes" ValueLabel="Hub Container">
+      <Condition Expression="IsHubContainer" />
+      <Setter Property="Stroke" Value="#FFFBA8A9" />
+      <Setter Property="StrokeThickness" Value="6" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>
