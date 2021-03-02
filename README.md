@@ -1,4 +1,4 @@
-﻿﻿# Hello, World!
+﻿# Hello, World!
 
 This is a simple "hello world" test repository.
 
