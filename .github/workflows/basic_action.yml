@@ -31,3 +31,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          /usr/bin/git config --list --show-origin
+          pwd; ls; ls /
+          lsb_release -a; uname -a
